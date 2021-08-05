@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOTSTRAP</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<div class="container pt-5">
+    <h1>CALCULATOR</h1>
+    <div class="row">
+        <div class="col-12">
+            <input type="text" id="text1">
+        </div> 
+        </div> <br>
+       <div class="row">
+           <div class="col-12">
+            <button type="button" class="btn btn-outline-primary" onclick="clearboo()" id="clear">CLEAR</button></div>
+               
+
+       </div>
+
+            <div class="row mt-3 m-auto p-auto">
+                <div class="col-3">
+                    <button type="button" class="btn btn-outline-primary" onclick="num(7)">7</button></div>
+                <div class="col-3"> <button type="button" class="btn btn-outline-primary"  onclick="num(8)">8</button></div>
+                <div class="col-3"> <button type="button" class="btn btn-outline-primary"  onclick="num(9)">9</button></div>
+                <div class="col-3"> <button type="button" class="btn btn-outline-primary"  onclick="num('+')">+</button></div>
+            </div>
+              
+            <div class="row mt-3 m-auto p-auto">
+                <div class="col-3">
+                    <button type="button" class="btn btn-outline-primary"  onclick="num(4)">4</button></div>
+                <div class="col-3"> <button type="button" class="btn btn-outline-primary"  onclick="num(5)">5</button></div>
+                <div class="col-3"> <button type="button" class="btn btn-outline-primary"  onclick="num(6)">6</button></div>
+                <div class="col-3"> <button type="button" class="btn btn-outline-primary"  onclick="num('-')">-</button></div>
+            </div>
+            <div class="row mt-3 m-auto p-auto">
+                <div class="col-3">
+                    <button type="button" class="btn btn-outline-primary">1</button></div>
+                <div class="col-3"> <button type="button" class="btn btn-outline-primary"  onclick="num(2)">2</button></div>
+                <div class="col-3"> <button type="button" class="btn btn-outline-primary"  onclick="num(3)">3</button></div>
+                <div class="col-3"> <button type="button" class="btn btn-outline-primary" onclick="num('*')">X</button></div>
+            </div>
+            
+            <div class="row mt-3 m-auto p-auto">
+                <div class="col-3">
+                    <button type="button" class="btn btn-outline-primary"  onclick="num(0)">0</button></div>
+                <div class="col-3"> <button type="button" class="btn btn-outline-primary" onclick="num('/')">/</button></div>
+                <div class="col-3"> <button type="button" class="btn btn-outline-primary"  onclick="equal()">=</button></div>
+                <div class="col-3"> <button type="button" class="btn btn-outline-primary" onclick="remove()">&#8592</button></div>
+            </div>
+    </div>
+    
+<script src="app.js"></script>    
+
+</body>
+</html>

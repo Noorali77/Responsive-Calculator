@@ -1,0 +1,19 @@
+.container{
+    border: 3px solid black;
+}
+
+h1{
+    text-align: center;
+}
+
+#text1{
+    width: 100%;
+    height: 160%;
+}
+#clear{
+    width: 100%;
+}
+.btn{
+    width: 60%;
+    padding: auto;
+}
